@@ -1,0 +1,12 @@
+<section class="center border" id="main">
+	<h2>Subscribe!</h2>
+	<%= form_for :user, url: users_path do |f| %>
+	  <p>
+	    <%= f.label :email %><br>
+	    <%= f.text_field :email, value: "Email" %>
+	  </p>
+	  <p>
+	    <%= f.submit %>
+	  </p>
+	<% end %>
+</section>

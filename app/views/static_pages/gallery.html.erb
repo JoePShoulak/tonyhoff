@@ -1,0 +1,14 @@
+<% provide(:title, "Gallery") %>
+<script>
+	<link href="css/lightbox.css" rel="stylesheet" />
+</script>
+<section class="center border" id="main">
+	<p class="indent">Click on a photo to view a larger version.</p>
+	<% @photos.each do |photo| %>
+	<section class="gallery">
+		<section class="photo">
+			<%= link_to image_tag(photo[0], :height => 200), photo[1], class: "fancybox" %>
+		</section>
+	</section>
+	<% end %>
+</section>

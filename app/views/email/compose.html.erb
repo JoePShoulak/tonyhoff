@@ -1,0 +1,12 @@
+<% provide(:title, 'Email | Compose') %>
+<section class="center border" id="main">
+  <%= form_tag '/email/deliver' do %>
+      <%= label_tag 'subject' %>
+      <%= text_field_tag 'subject'%>
+
+      <%= label_tag 'message' %>
+      <%= text_area_tag 'message'%>
+
+      <div><%= submit_tag 'Send' %></div>
+  <% end %>
+</section>
