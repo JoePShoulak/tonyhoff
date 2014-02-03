@@ -44,8 +44,15 @@ p {
   padding-right: 50px;
 }
 
+ul {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
 nav {
   ul {
+    padding-left: 0;
+    padding-right: 0;
     position: relative;
     bottom: 10px;
   }
