@@ -20,14 +20,49 @@ h1 {
 /* IDs */
 #logo {
   margin-top: 25px;
+  margin-bottom: 25px;
   margin-left: 10%;
 }
 
 #main {
-  background: #fff;
+  height: 750px;
+  width: 850px;
+}
+
+.centered {
+  margin-top:20px;
+  margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
-  width: 750px;
-  height: 1000px;
+  padding-top: 20px;
+  background: #fff;
+  width: 850px;
+}
+
+p {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+nav {
+  ul {
+    position: relative;
+    bottom: 10px;
+  }
+  li {
+    font-size: 115%;
+    font-weight: bold;
+    display: inline;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  a, a:active, a:visited {
+    color: #666;
+  }
+
+  a:hover {
+    color: #444;
+    text-decoration: none;
+  }
 }
 
