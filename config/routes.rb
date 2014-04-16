@@ -1,12 +1,10 @@
 Prestongunderson::Application.routes.draw do
 
-  match '/home',      to: 'static_pages#home'
-  match '/contact',   to: 'static_pages#contact'
-  match '/services',  to: 'static_pages#services'
-  match '/pricing',   to: 'static_pages#pricing'
-  match '/brands',    to: 'static_pages#brands'
-  match '/gallery',   to: 'static_pages#gallery'
-  match '/faq',       to: 'static_pages#faq'
+  match '/home',              to: 'static_pages#home'
+  match '/contact',           to: 'static_pages#contact'
+  match '/services',          to: 'static_pages#services'
+  match '/pricing_artwork',   to: 'static_pages#pricing_artwork'
+  match '/gallery',           to: 'static_pages#gallery'
 
   root to: 'static_pages#home'
 
