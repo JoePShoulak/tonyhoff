@@ -4,9 +4,8 @@ gem 'rails', '3.2.13'
 gem 'bootstrap-sass', '2.1'
 gem 'simple_form'
 gem 'rspec'
-gem 'pg'
+gem 'pg', '~> 0.17.1'
 gem 'jquery-rails'
-gem 'thin'
 
 group :development, :test do 
   gem 'sqlite3'

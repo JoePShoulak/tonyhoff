@@ -12,6 +12,17 @@ body {
 	}
 }
 
+.gallery_image {
+	padding: {
+		left: 75px;
+		right: 75px;
+		bottom: 100px;
+	};
+	margin: {
+		left: auto;
+	}
+}
+
 /* Predefined Tags */
 h1 {
   text-align: center;
@@ -25,7 +36,7 @@ h1 {
 }
 
 #main {
-  height: 750px;
+  height: 850px;
   width: 850px;
 }
 
