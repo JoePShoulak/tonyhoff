@@ -1,7 +1,8 @@
 @import "bootstrap";
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
 
 body {
-  background: #777;
+	background: #777;
 }
 
 /* Classes */
@@ -25,43 +26,44 @@ body {
 
 /* Predefined Tags */
 h1 {
-  text-align: center;
+	text-align: center;
 }
 
 /* IDs */
 #logo {
-  margin-top: 25px;
-  margin-bottom: 25px;
-  margin-left: 10%;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-left: 10%;
 }
 
 #main {
-  height: 850px;
-  width: 850px;
+	height: 850px;
+	width: 850px;
 }
 
 .centered {
-  margin-top:20px;
-  margin-bottom: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 20px;
-  background: #fff;
-  width: 850px;
+	margin-top:20px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+	background: #fff;
+	width: 850px;
 }
 
 h3 {
-  padding-left: 50px;
+	padding-left: 50px;
 }
 
 p {
-  padding-left: 50px;
-  padding-right: 50px;
+	font-family: 'Roboto Slab', serif;
+	padding-left: 50px;
+	padding-right: 50px;
 }
 
 ul {
-  padding-left: 50px;
-  padding-right: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
 }
 
 nav {
@@ -72,6 +74,7 @@ nav {
     bottom: 10px;
   }
   li {
+  	font-family: 'Roboto Slab', serif;
     font-size: 115%;
     font-weight: bold;
     display: inline;
