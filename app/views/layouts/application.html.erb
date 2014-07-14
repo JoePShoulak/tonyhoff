@@ -8,10 +8,12 @@
 </head>
 <html>
 
-<%= render 'layouts/header.html' %>
+<%= render 'layouts/header.html.erb' %>
 
 	<body>
     <%= yield %>
 
 	</body>
+	
+<%= render 'layouts/footer.html.erb'%>
 </html>

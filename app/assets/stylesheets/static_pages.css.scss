@@ -6,12 +6,6 @@ body {
 }
 
 /* Classes */
-.center {
-	background: #fff;
-	margin: {
-		left: auto;
-	}
-}
 
 .gallery_image {
 	padding: {
@@ -37,8 +31,19 @@ h1 {
 }
 
 #main {
-	height: 850px;
+	min-height: 300px;
 	width: 850px;
+}
+
+#sociallinks {
+	position: relative;
+	left: 10px;
+}
+
+#address {
+	position: relative;
+	left: 440px;
+	bottom: 25px;
 }
 
 #header_image {
@@ -64,7 +69,7 @@ h3 {
 	padding-left: 50px;
 }
 
-p {
+p, h5, ul {
 	font-family: 'Roboto Slab', serif;
 	padding-left: 50px;
 	padding-right: 50px;
@@ -84,7 +89,7 @@ nav {
   }
   li {
   	font-family: 'Roboto Slab', serif;
-    font-size: 115%;
+    font-size: 110%;
     font-weight: bold;
     display: inline;
     padding-left: 25px;

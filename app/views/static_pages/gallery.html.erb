@@ -3,10 +3,9 @@
 <section class="centered" id="main">
 	<h1>Gallery</h1>
 	
-	<%= image_tag("/assets/model1.jpg", id: "model1", class: "gallery_image", width: "30%")%> 
-	<%= image_tag("/assets/model2.jpg", id: "model2", class: "gallery_image", width: "30%")%>
-	<%= image_tag("/assets/model3.jpg", id: "model3", class: "gallery_image", width: "30%")%>
-	<%= image_tag("/assets/model4.jpg", id: "model4", class: "gallery_image", width: "30%")%>
+	<% for i in (1..4) do %>
+		<%= image_tag("/assets/model#{i}.jpg", id: "model#{i}", class: "gallery_image", width: "30%")%> 
+	<% end %>
 
 
 </section>
